@@ -1,0 +1,135 @@
+[
+    {
+      "category_id": 1,
+      "category": "Health",
+      "picture": "https://i.ibb.co/J5W7Gq4/Health.png",
+      "title": "Clean water for children",
+      "category_bg_color": "#AEC8FF",
+      "card_bg_color": "#D9E5FF",
+      "text_and_button_bg_color": "#0052FF",
+      "description": "A high-quality smartphone with advanced features.",
+      "price": 599.99
+    },
+    {
+      "category_id": 2,
+      "category": "Education",
+      "picture": "clothing.jpg",
+      "title": "Good education",
+      "category_bg_color": "#3399FF",
+      "card_bg_color": "#FFE3E4",
+      "text_and_button_bg_color": "#333333",
+      "description": "A comfortable and stylish t-shirt for everyday wear.",
+      "price": 19.99
+    },
+    {
+      "category_id": 3,
+      "category": "Clothing",
+      "picture": "home_appliances.jpg",
+      "title": "Used Clothing Drive",
+      "category_bg_color": "#33CC33",
+      "card_bg_color": "#FF5733",
+      "text_and_button_bg_color": "#FFFFFF",
+      "description": "A spacious refrigerator to keep your food fresh.",
+      "price": 899.99
+    },
+    {
+      "category_id": 4,
+      "category": "Food",
+      "picture": "books.jpg",
+      "title": "Better Food for Everyone",
+      "category_bg_color": "#9933FF",
+      "card_bg_color": "#FFC107",
+      "text_and_button_bg_color": "#333333",
+      "description": "An engaging novel that will captivate your imagination.",
+      "price": 12.99
+    },
+    {
+      "category_id": 4,
+      "category": "Food",
+      "picture": "toys.jpg",
+      "title": "Better Food for Everyone",
+      "category_bg_color": "#FF5733",
+      "card_bg_color": "#3399FF",
+      "text_and_button_bg_color": "#FFFFFF",
+      "description": "A fun and interactive toy robot for kids.",
+      "price": 29.99
+    },
+    {
+      "category_id": 3,
+      "category": "Clothing",
+      "picture": "beauty.jpg",
+      "title": "Used Clothing Drive",
+      "category_bg_color": "#FFC107",
+      "card_bg_color": "#33CC33",
+      "text_and_button_bg_color": "#333333",
+      "description": "A delightful perfume with a captivating fragrance.",
+      "price": 49.99
+    },
+    {
+      "category_id": 2,
+      "category": "Education",
+      "picture": "sports.jpg",
+      "title": "Good education",
+      "category_bg_color": "#33CC33",
+      "card_bg_color": "#FFE3E4",
+      "text_and_button_bg_color": "#FFFFFF",
+      "description": "High-performance running shoes for athletes.",
+      "price": 79.99
+    },
+    {
+      "category_id": 1,
+      "category": "Health",
+      "picture": "https://i.ibb.co/J5W7Gq4/Health.png",
+      "title": "Clean water for children",
+      "category_bg_color": "#AEC8FF",
+      "card_bg_color": "#D9E5FF",
+      "text_and_button_bg_color": "#0052FF",
+      "description": "A comfortable sofa to enhance your living room.",
+      "price": 599.99
+    },
+    {
+      "category_id": 1,
+      "category": "Health",
+      "picture": "https://i.ibb.co/J5W7Gq4/Health.png",
+      "title": "Clean water for children",
+      "category_bg_color": "#AEC8FF",
+      "card_bg_color": "#D9E5FF",
+      "text_and_button_bg_color": "#0052FF",
+      "description": "A delicious chocolate bar to satisfy your sweet tooth.",
+      "price": 2.99
+    },
+    {
+      "category_id": 2,
+      "category": "Education",
+      "picture": "garden.jpg",
+      "title": "Good education",
+      "category_bg_color": "#33CC33",
+      "card_bg_color": "#FFE3E4",
+      "text_and_button_bg_color": "#FFFFFF",
+      "description": "A durable garden hose for all your outdoor watering needs.",
+      "price": 24.99
+    },
+    {
+      "category_id": 3,
+      "category": "Clothing",
+      "picture": "pets.jpg",
+      "title": "Used Clothing Drive",
+      "category_bg_color": "#9933FF",
+      "card_bg_color": "#FF5733",
+      "text_and_button_bg_color": "#FFFFFF",
+      "description": "A stylish and comfortable collar for your furry friend.",
+      "price": 9.99
+    },
+    {
+      "category_id": 4,
+      "category": "Food",
+      "picture": "music.jpg",
+      "title": "Better Food for Everyone",
+      "category_bg_color": "#FFC107",
+      "card_bg_color": "#33CC33",
+      "text_and_button_bg_color": "#333333",
+      "description": "High-quality headphones for an immersive music experience.",
+      "price": 129.99
+    }
+  ]
+  

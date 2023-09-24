@@ -2,20 +2,20 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
+import Header from "./Components/Header/Header";
+import MainLayout from "./Components/MainLayout/MainLayout";
+import Home from "./Components/Pages/Home";
 
 const donationCreateRoute = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <section>
-        <div>nav</div>
-        <Outlet></Outlet>
-      </section>
-    ),
+    element:<MainLayout></MainLayout>
+    ,
     children: [
       {
         path: "/",
-        element: <div>Home</div>,
+        element: <Home></Home>,
+        loader:()=> fetch('donation.json')
       },
       {
         path: "/donation",
