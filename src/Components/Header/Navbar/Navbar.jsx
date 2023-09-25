@@ -2,20 +2,14 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center z-10">
       <div>
-        <img src="https://i.ibb.co/tMQqy49/Logo.png" />
-      </div>
-
-      <div className="flex gap-3">
+          <nav className="flex justify-between container mx-auto items-center py-6">
+          <div><img src="https://i.ibb.co/tMQqy49/Logo.png" /></div>
+      <div className="flex gap-5">
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>
-            isPending
-              ? "pending"
-              : isActive
-              ? "text-red-500 underline "
-              : ""
+            isPending ? "pending" : isActive ? "text-red-600 underline" : ""
           }
         >
           Home
@@ -23,11 +17,7 @@ const Navbar = () => {
         <NavLink
           to="/donation"
           className={({ isActive, isPending }) =>
-            isPending
-              ? "pending"
-              : isActive
-              ? "text-red-500 underline "
-              : ""
+            isPending ? "pending" : isActive ? "text-red-600 underline" : ""
           }
         >
           Donation
@@ -35,16 +25,13 @@ const Navbar = () => {
         <NavLink
           to="/statistics"
           className={({ isActive, isPending }) =>
-            isPending
-              ? "pending"
-              : isActive
-              ? "text-red-500 underline "
-              : ""
+            isPending ? "pending" : isActive ? "text-red-600 underline" : ""
           }
         >
           Statistics
         </NavLink>
-      </div>
+              </div>
+              </nav>
     </div>
   );
 };
