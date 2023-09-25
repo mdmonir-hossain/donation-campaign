@@ -1,135 +1,135 @@
 [
     {
-      "category_id": 1,
+      "category_id": "1",
       "category": "Health",
       "picture": "https://i.ibb.co/J5W7Gq4/Health.png",
       "title": "Clean water for children",
       "category_bg_color": "#AEC8FF",
       "card_bg_color": "#D9E5FF",
       "text_and_button_bg_color": "#0052FF",
-      "description": "A high-quality smartphone with advanced features.",
-      "price": 599.99
+      "description": "we are dedicated to changing this narrative and ensuring that every child has access to clean water. Our Clean Water for Children initiative is a passionate mission that aims to make a real difference in the lives of young ones by providing them with the gift of clean and safe water.",
+      "price": 290.00
     },
     {
-      "category_id": 2,
+      "category_id": "2",
       "category": "Education",
       "picture": "https://i.ibb.co/BN2jydR/Education.png",
       "title": "Good education",
       "category_bg_color": "#FFC3C5",
       "card_bg_color": "#FFE3E4",
       "text_and_button_bg_color": "#FF444A",
-      "description": "A comfortable and stylish t-shirt for everyday wear.",
-      "price": 19.99
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 290.00
     },
     {
-      "category_id": 3,
+      "category_id": "3",
       "category": "Clothing",
       "picture": "https://i.ibb.co/k879tkx/Clothing.png",
       "title": "Used Clothing Drive",
       "category_bg_color": "#D4ECC1",
       "card_bg_color": "#EBF6E2",
       "text_and_button_bg_color": "#79C23F",
-      "description": "A spacious refrigerator to keep your food fresh.",
-      "price": 899.99
+      "description": "Join us in making a difference in our community by participating in our Used Clothing Drive! we believe that a small act of kindness can go a long way in bringing comfort and warmth to those in need.",
+      "price": 290.00
     },
     {
-      "category_id": 4,
+      "category_id": "4",
       "category": "Food",
       "picture": "https://i.ibb.co/DkLdVpQ/Food.png",
       "title": "Better Food for Everyone",
       "category_bg_color": "#FDD2C4",
       "card_bg_color": "#FEEAE3",
       "text_and_button_bg_color": "#F87147",
-      "description": "An engaging novel that will captivate your imagination.",
-      "price": 12.99
+      "description": "we believe that access to better food is a fundamental right for everyone. Our Better Food for Everyone initiative is dedicated to creating a positive and lasting impact on the health and well-being of individuals and communities by promoting nutritious, sustainable, and accessible food options.",
+      "price": 290.00
     },
     {
-      "category_id": 4,
+      "category_id": "4",
       "category": "Food",
       "picture": "https://i.ibb.co/DkLdVpQ/Food.png",
       "title": "Better Food for Everyone",
       "category_bg_color": "#FDD2C4",
       "card_bg_color": "#FEEAE3",
       "text_and_button_bg_color": "#F87147",
-      "description": "A fun and interactive toy robot for kids.",
-      "price": 29.99
+      "description": "we believe that access to better food is a fundamental right for everyone. Our Better Food for Everyone initiative is dedicated to creating a positive and lasting impact on the health and well-being of individuals and communities by promoting nutritious, sustainable, and accessible food options.",
+      "price": 290.00
     },
     {
-      "category_id": 3,
+      "category_id": "3",
       "category": "Clothing",
       "picture": "https://i.ibb.co/k879tkx/Clothing.png",
       "title": "Used Clothing Drive",
       "category_bg_color": "#D4ECC1",
       "card_bg_color": "#EBF6E2",
       "text_and_button_bg_color": "#79C23F",
-      "description": "A delightful perfume with a captivating fragrance.",
-      "price": 49.99
+      "description": "Join us in making a difference in our community by participating in our Used Clothing Drive!  we believe that a small act of kindness can go a long way in bringing comfort and warmth to those in need.",
+      "price": 290.00
     },
     {
-      "category_id": 2,
+      "category_id": "2",
       "category": "Education",
       "picture": "https://i.ibb.co/BN2jydR/Education.png",
       "title": "Good education",
       "category_bg_color": "#FFC3C5",
       "card_bg_color": "#FFE3E4",
       "text_and_button_bg_color": "#FF444A",
-      "description": "High-performance running shoes for athletes.",
-      "price": 79.99
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 290.00
     },
     {
-      "category_id": 1,
+      "category_id": "1",
       "category": "Health",
       "picture": "https://i.ibb.co/J5W7Gq4/Health.png",
       "title": "Clean water for children",
       "category_bg_color": "#AEC8FF",
       "card_bg_color": "#D9E5FF",
       "text_and_button_bg_color": "#0052FF",
-      "description": "A comfortable sofa to enhance your living room.",
-      "price": 599.99
+      "description": "we are dedicated to changing this narrative and ensuring that every child has access to clean water. Our Clean Water for Children initiative is a passionate mission that aims to make a real difference in the lives of young ones by providing them with the gift of clean and safe water.",
+      "price": 290.00
     },
     {
-      "category_id": 1,
+      "category_id": "1",
       "category": "Health",
       "picture": "https://i.ibb.co/J5W7Gq4/Health.png",
       "title": "Clean water for children",
       "category_bg_color": "#AEC8FF",
       "card_bg_color": "#D9E5FF",
       "text_and_button_bg_color": "#0052FF",
-      "description": "A delicious chocolate bar to satisfy your sweet tooth.",
-      "price": 2.99
+      "description": "we are dedicated to changing this narrative and ensuring that every child has access to clean water. Our Clean Water for Children initiative is a passionate mission that aims to make a real difference in the lives of young ones by providing them with the gift of clean and safe water.",
+      "price": 290.00
     },
     {
-      "category_id": 2,
+      "category_id": "2",
       "category": "Education",
       "picture": "https://i.ibb.co/BN2jydR/Education.png",
       "title": "Good education",
       "category_bg_color": "#FFC3C5",
       "card_bg_color": "#FFE3E4",
       "text_and_button_bg_color": "#FF444A",
-      "description": "A durable garden hose for all your outdoor watering needs.",
-      "price": 24.99
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 290.00
     },
     {
-      "category_id": 3,
+      "category_id": "3",
       "category": "Clothing",
       "picture": "https://i.ibb.co/k879tkx/Clothing.png",
       "title": "Used Clothing Drive",
       "category_bg_color": "#D4ECC1",
       "card_bg_color": "#EBF6E2",
       "text_and_button_bg_color": "#79C23F",
-      "description": "A stylish and comfortable collar for your furry friend.",
-      "price": 9.99
+      "description": "Join us in making a difference in our community by participating in our Used Clothing Drive!  we believe that a small act of kindness can go a long way in bringing comfort and warmth to those in need.",
+      "price": 290.00
     },
     {
-      "category_id": 4,
+      "category_id": "4",
       "category": "Food",
       "picture": "https://i.ibb.co/DkLdVpQ/Food.png",
       "title": "Better Food for Everyone",
       "category_bg_color": "#FDD2C4",
       "card_bg_color": "#FEEAE3",
       "text_and_button_bg_color": "#F87147",
-      "description": "High-quality headphones for an immersive music experience.",
-      "price": 129.99
+      "description": "we believe that access to better food is a fundamental right for everyone. Our Better Food for Everyone initiative is dedicated to creating a positive and lasting impact on the health and well-being of individuals and communities by promoting nutritious, sustainable, and accessible food options.",
+      "price": 290.00
     }
   ]
   
