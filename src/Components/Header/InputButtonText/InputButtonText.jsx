@@ -10,7 +10,7 @@ const InputButtonText = ({ donationCards }) => {
   const [searchcat, setsearchcat] = useState([]);
 
   const search = () => {
-    const search_category = donationCards.filter(
+    const search_category = donationCards?.filter(
       (searchData) => searchData.category == searchCategory
     );
     setsearchcat(search_category);
