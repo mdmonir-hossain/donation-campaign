@@ -4,13 +4,13 @@ import InputButtonText from "../../Components/Header/InputButtonText/InputButton
 import SearchCards from "./SearchCards";
 
 
-const Search = ({}) => {
-    
+const Search = ({donationCard}) => {
+    console.log(donationCard);
     return (
         <div>
             <Banner></Banner>
             <InputButtonText></InputButtonText>
-            
+            <SearchCards donationCard={donationCard}></SearchCards>
         </div>
     );
 };

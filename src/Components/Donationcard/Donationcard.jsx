@@ -35,7 +35,7 @@ const Donationcard = ({ card }) => {
         <figure className="">
           <img className="w-3/4  mx-auto" src={picture} alt="picture" />
         </figure>
-        <div className="hero-overlay  bg-opacity-60  absolute bottom-[221px] left-[168px]  w-3/4 mx-auto h-20 ">
+        <div className="hero-overlay  bg-opacity-60  absolute bottom-[626px] left-[45px]  lg:bottom-[221px] lg:left-[168px] md:bottom-[314px] md:left-[96px]  w-3/4 mx-auto h-20 ">
           <button
             onClick={handleAddtoDonation}
             className="btn ml-5 mt-5 "
