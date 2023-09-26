@@ -35,7 +35,7 @@ const getArcLabel = (params) => {
 };
   return (
     <div>
-    <div className='flex justify-center items-center'>
+    <div className='flex justify-center items-center w-full'>
     <PieChart
       series={[
         {

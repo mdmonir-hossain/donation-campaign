@@ -21,7 +21,7 @@ const Donation = () => {
             {
                 nodata ? <p className='h-[80vh] flex justify-center items-center'> {nodata}</p> :
                     <div>
-                        <div className='grid grid-cols-2 gap-5 w-3/4 mx-auto'>
+                        <div className='grid grid-cols-1 lg:grid-cols-2  md:grid-cols-1 gap-5  lg:w-3/4 mx-auto'>
                             {
                                 seeall ? 
                                 donation.map(alldonations => <AddtoDonation alldonations={alldonations} > </AddtoDonation>)   

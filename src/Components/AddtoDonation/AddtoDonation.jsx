@@ -18,7 +18,7 @@ const AddtoDonation = ({ alldonations }) => {
         style={{ backgroundColor: card_bg_color }}
       >
         
-          <img  src={picture} alt="Movie" />
+          <img className="w-1/2" src={picture} alt="Movie" />
       
         <div className="card-body">
           <h2
