@@ -14,12 +14,12 @@ const AddtoDonation = ({ alldonations }) => {
   return (
     <div>
       <div
-        className="card card-side bg-base-100 shadow-xl"
+        className="card card-side shadow-xl"
         style={{ backgroundColor: card_bg_color }}
       >
-        <figure>
-          <img src={picture} alt="Movie" />
-        </figure>
+        
+          <img  src={picture} alt="Movie" />
+      
         <div className="card-body">
           <h2
             style={{
@@ -31,7 +31,7 @@ const AddtoDonation = ({ alldonations }) => {
           </h2>
           <h2
             className="card-title"
-            style={{ color: text_and_button_bg_color }}
+            
           >
             {title}
           </h2>

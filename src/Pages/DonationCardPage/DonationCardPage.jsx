@@ -6,9 +6,9 @@ const DonationCardPage = () => {
   const [card, setCard] = useState();
 
   const { category_id } = useParams();
-  console.log(category_id);
+
   const cards = useLoaderData();
-  console.log(cards);
+
 
   useEffect(() => {
     const finddonationcard = cards?.find(
