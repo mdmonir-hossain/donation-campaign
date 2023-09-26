@@ -31,10 +31,11 @@ const Donationcard = ({ card }) => {
       <div>
           <ToastContainer />
       <div className="card relative  bg-base-100 shadow-xl   ">
+        
         <figure className="">
           <img className="w-3/4  mx-auto" src={picture} alt="picture" />
         </figure>
-        <div className="bg-black opacity-70 absolute bottom-[221px] left-[168px]  w-3/4 mx-auto h-20 ">
+        <div className="hero-overlay  bg-opacity-60  absolute bottom-[221px] left-[168px]  w-3/4 mx-auto h-20 ">
           <button
             onClick={handleAddtoDonation}
             className="btn ml-5 mt-5 "
@@ -43,7 +44,7 @@ const Donationcard = ({ card }) => {
               color: "#fff",
             }}
           >
-            Donate {price}
+            Donate $ {price}
           </button>
         </div>
         <div className="card-body w-3/4 mx-auto">

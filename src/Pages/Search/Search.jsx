@@ -1,22 +1,18 @@
 import { useLoaderData } from "react-router-dom";
-import DonationCards from "../../Components/DonationCards/DonationCards";
 import Banner from "../../Components/Header/Banner/Banner";
 import InputButtonText from "../../Components/Header/InputButtonText/InputButtonText";
+import SearchCards from "./SearchCards";
 
 
-const Home = ({donationCard}) => {
-   
-        const donationCards = useLoaderData();
-    
+const Search = ({}) => {
     
     return (
         <div>
             <Banner></Banner>
             <InputButtonText></InputButtonText>
-
-            <DonationCards donationCards={donationCards}></DonationCards>
+            
         </div>
     );
 };
 
-export default Home;
+export default Search;
