@@ -1,48 +1,66 @@
-import { useEffect, useState } from "react";
-import React, { PureComponent } from "react";
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
+import * as React from 'react';
+
+import { PieChart, pieArcLabelClasses } from '@mui/x-charts/PieChart';
+import {  useEffect,useState } from "react";
+
+
 
 const Statistics = () => {
-  const [statistics, setStatistics] = useState([]);
+const [mydonate, setMydonate] = useState(0);
+const addDonations = JSON.parse(localStorage.getItem("donations"));
+  const myDonate = addDonations.length;
   useEffect(() => {
-    const addDonations = JSON.parse(localStorage.getItem("donations"));
-    console.log(addDonations.length);
-    setStatistics(addDonations);
-  }, []);
+    setMydonate(myDonate);
+  },[myDonate])
+  
+  const totaldonate = 12 - mydonate;
 
-  const data = [
-    { name: "Group A", value: 400 },
-    { name: "Group B", value: 300 },
-    { name: "Group C", value: 300 },
-    { name: "Group D", value: 200 },
-    ];
-    
-    const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
-    
+const data = [
+  { label: 'My Donation', value: mydonate, color: '#00C49F' },
+  { label: 'Total Donation', value: totaldonate, color: '#FF444A' },
+  
+];
 
-  return (
-      <div>
-         
-      <ResponsiveContainer width="100%" height="100%">
-        <PieChart width={400} height={400}>
-          <Pie
-            data={data}
-            cx="50%"
-            cy="50%"
-            labelLine={false}
-           
-            outerRadius={80}
-            fill="#8884d8"
-            dataKey="value"
-          >
-            {data.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-            ))}
-          </Pie>
-        </PieChart>
-      </ResponsiveContainer>
-    </div>
-  );
+const sizing = {
+  margin: { right: 5 },
+  width: 200,
+  height: 200,
+  legend: { hidden: false },
 };
+const total = 12 ;
 
+const getArcLabel = (params) => {
+  const percent = params.value / total;
+  return `${(percent * 100).toFixed(1)}%`;
+};
+  return (
+    <div>
+    <div className='flex justify-center items-center'>
+    <PieChart
+      series={[
+        {
+          outerRadius: 100,
+          data,
+          arcLabel: getArcLabel,
+        },
+      ]}
+      sx={{
+        [`& .${pieArcLabelClasses.root}`]: {
+          fill: 'white',
+          fontSize: 12,
+        },
+      }}
+      {...sizing}
+      />
+      
+      </div>
+      <div className='flex justify-center items-center'>
+        <h1>My Donation:  </h1>
+        <div className='bg-[#00C49F] h-3 w-20 mr-2'></div>
+        <h1>Total Donation:  </h1>
+        <div className='bg-[#FF444A] h-3 w-20'></div>
+      </div>
+      </div>
+  );
+}
 export default Statistics;
